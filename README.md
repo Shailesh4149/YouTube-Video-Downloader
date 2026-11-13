@@ -23,7 +23,6 @@ for a YouTube URL.
 - FFmpeg
 - Deno JavaScript runtime
 
-Python packages are listed in [requirements.txt](./requirements.txt).
 
 ## Installation
 
@@ -74,7 +73,7 @@ automatically merges them into the final file.
 ## Start the command-line version
 
 ```bat
-cd /d C:\Users\shail\Desktop\Downloader
+
 python youtube_downloader.py
 ```
 
@@ -95,7 +94,7 @@ automatically merges separate video and audio streams.
 Run the command from the project directory:
 
 ```bat
-cd /d C:\Users\shail\Desktop\Downloader
+
 python -m pip install -r requirements.txt
 ```
 
