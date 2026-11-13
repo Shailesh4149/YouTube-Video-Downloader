@@ -27,6 +27,16 @@ Python packages are listed in [requirements.txt](./requirements.txt).
 
 ## Installation
 
+Clone or download this repository first:
+
+```bat
+git clone https://github.com/Shailesh4149/YouTube-Video-Downloader.git
+cd YouTube-Video-Downloader
+```
+
+If you downloaded the ZIP file, extract it and open Command Prompt in the
+extracted project folder.
+
 Open Command Prompt and run:
 
 ```bat
@@ -34,7 +44,10 @@ cd /d C:\Users\shail\Desktop\Downloader
 python -m pip install -r requirements.txt
 ```
 
-Install FFmpeg and Deno with Windows Package Manager:
+This installs the Python library required by both the GUI and CLI scripts.
+Tkinter is included with the standard Windows Python installer.
+
+Install the required external tools with Windows Package Manager:
 
 ```bat
 winget install --id Gyan.FFmpeg.Shared -e
