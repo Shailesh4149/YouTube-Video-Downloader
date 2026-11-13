@@ -29,7 +29,6 @@ for a YouTube URL.
 Open Command Prompt and run:
 
 ```bat
-cd /d C:\Users\shail\Desktop\Downloader
 python -m pip install -r requirements.txt
 ```
 
@@ -52,7 +51,6 @@ python -m yt_dlp --version
 ## Start the GUI
 
 ```bat
-cd /d C:\Users\shail\Desktop\Downloader
 python youtube_downloader_gui.py
 ```
 
@@ -73,7 +71,6 @@ automatically merges them into the final file.
 ## Start the command-line version
 
 ```bat
-
 python youtube_downloader.py
 ```
 
